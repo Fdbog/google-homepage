@@ -1,0 +1,42 @@
+nav.navbar {
+	float: right;
+
+
+
+
+}
+
+
+
+div#logo {
+	position:absolute;
+	text-align: center;
+	left:40%;
+	top: 45%;
+
+
+
+}
+
+
+footer.footer{
+	position:fixed;
+	top:95%;
+
+
+
+}
+
+
+span#leftlinks {
+	position:fixed;
+	text-align: left;
+	left:3%;
+}
+
+span#rightlinks {
+	position:fixed;
+	text-align:right;
+	right:3%;
+
+}
