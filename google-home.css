@@ -1,3 +1,9 @@
+/*Header Styles*/
+
+
+
+
+
 nav.navbar {
 	float: right;
 
@@ -7,18 +13,47 @@ nav.navbar {
 }
 
 
-
+/*Logo*/
 div#logo {
-	position:absolute;
-	text-align: center;
+	position:fixed;
+	
 	left:40%;
-	top: 45%;
+	top: 32%;
 
 
 
 }
 
 
+/*SearchForm*/
+div#search{
+	position:absolute;
+	
+	top:50%;
+	left:32%;
+	
+
+}
+
+input#searchbox{
+	width:200%;
+	height:20px;
+	
+
+}
+
+
+p#frenchlink {
+	position:fixed;
+	top:74%;
+	left:43%;
+	font-size:12px;
+
+
+
+}
+
+/*Footer*/
 footer.footer{
 	position:fixed;
 	top:95%;
@@ -27,7 +62,7 @@ footer.footer{
 
 }
 
-
+/*Footer Links*/
 span#leftlinks {
 	position:fixed;
 	text-align: left;
@@ -40,3 +75,6 @@ span#rightlinks {
 	right:3%;
 
 }
+
+/*links*/
+a
