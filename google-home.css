@@ -25,51 +25,116 @@ div#logo {
 
 }
 
+	
+	
+	
+	
 
-/*SearchForm*/
+
+/*Search*/
 div#search{
 	position:absolute;
-	
+	bottom:auto;
 	top:34%;
-	left:35%;
-	
+	left:36%;
+	right:auto;
 
 }
-
+/*searchbox*/
 input#searchbox{
-	width:230%;
-	height:20px;
-	border-color:blue;
-	padding:8px;
+	width:195%;
+	height:26px;
+	line-height:26;
+	margin:-1px 0 1px;
+	border:1px solid #e5e5e5;
+	padding:6px;
 }
 
-div.buttons
+input#searchbox:focus{
+	border-color:#4d90fe;
+	
+	
+}
+
+input#searchbox:hover{
+	border-color:#c6c6c6;
+	
+	
+	
+}
+input#searchbox:hover:focus{
+	border-color:#4d90fe;
+	
+}
+
+
+/*ButtonStyles*/
+
+div#buttons
 {
 	position:relative;
-	left:55%;
-	top: 20%;
-	padding:7px;
+	left:42%;
+	margin-top:7%;
+	
 	
 }
 
+.button {
+	background-image: -moz-linear-gradient(center top , #f5f5f5, #f1f1f1);
+	background-color:#e5e5e5;
+	margin:11px 4px;
+	padding:0 16px;
+	font:arial,sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	border:1px solid #f2f2f2;
+	color:#757575;
+	min-width:54px;
+	text-align:center;
+	height:36px;
+	line-height:27px;
+	-moz-user-select: none;
+	border-radius:2px;
+	cursor:default;
+	}
+
+.button:hover {
+	
+	
+	
+	
+	
+	
+}
 
 
 p#frenchlink {
 	position:absolute;
-	top:49%;
-	left:43%;
-	font-size:12px;
-
-
+	top:48%;
+	left:46%;
+	font-size:14px;
+	text-align:center;
+	font-family:arial,sans-serif;
 
 }
 
 /*Footer*/
-footer.footer{
+div#fbar {
 	position:fixed;
 	top:95%;
+	display:block;
+	background: #f2f2f2 none repeat scroll 0 0;
+	line-height:40px;
+	width:100%;
+	border-top: 1px solid #e4e4e4;
+	height:35px;
+}
 
-
+.footer{
+	
+	
+	
+	
 
 }
 
