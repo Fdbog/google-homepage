@@ -5,7 +5,8 @@
 
 
 nav.navbar {
-	float: right;
+	display:block;
+	float:right;
 
 
 
@@ -15,10 +16,10 @@ nav.navbar {
 
 /*Logo*/
 div#logo {
-	position:fixed;
+	position:absolute;
+	top:21%;
+	left:43%;
 	
-	left:40%;
-	top: 32%;
 
 
 
@@ -29,23 +30,33 @@ div#logo {
 div#search{
 	position:absolute;
 	
-	top:50%;
-	left:32%;
+	top:34%;
+	left:35%;
 	
 
 }
 
 input#searchbox{
-	width:200%;
+	width:230%;
 	height:20px;
-	
+	border-color:blue;
+	padding:8px;
+}
 
+div.buttons
+{
+	position:relative;
+	left:55%;
+	top: 20%;
+	padding:7px;
+	
 }
 
 
+
 p#frenchlink {
-	position:fixed;
-	top:74%;
+	position:absolute;
+	top:49%;
 	left:43%;
 	font-size:12px;
 
