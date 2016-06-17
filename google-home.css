@@ -1,51 +1,34 @@
 /*Header Styles*/
 
-
-
-
-
 nav.navbar {
 	display:inline-block;
 	float:right;
 	font-family:arial,sans-serif;
 	font-size:13px;
-	
-	
-
-
 }
 
 div#header {
 	position:relative;
 	width:100%;
 	padding-top:5%;
-	
-	
 }
 span#topright {
 	position:relative;
-	
 	padding-right:30px;
 	padding-left:30px;
-	
 }
 
 .navbar a{
 	text-decoration:none;
 	color:#222;
-	
 	margin: 2px 9px 0;
 }
 .topbutton1 {
 	margin-left:0;
 	margin-right:0;
-	
-	
-	
 }
 
 #signin {
-	
 	padding:0 13px;
 	font-family:arial,sans-serif;
 	font-size:13px;
@@ -61,19 +44,12 @@ span#topright {
 	text-decoration:none;
 	cursor:default;
 	}
-	
-
-
 
 /*Logo*/
 div#logo {
 	position:absolute;
 	top:21%;
 	left:43%;
-	
-
-
-
 }
 
 	
@@ -127,7 +103,6 @@ div#buttons
 	left:42%;
 	margin-top:7%;
 	
-	
 }
 
 .button {
@@ -149,14 +124,6 @@ div#buttons
 	cursor:default;
 	}
 
-.button:hover {
-	
-	
-	
-	
-	
-	
-}
 
 
 p#frenchlink {
@@ -166,13 +133,10 @@ p#frenchlink {
 	font-size:13px;
 	text-align:center;
 	font-family:arial,sans-serif;
-	
 }
 
 #frenchlink a{
 	text-decoration:none;
-	
-	
 }
 #frenchlink a:hover {
 	text-decoration:underline;
@@ -192,11 +156,6 @@ div#fbar {
 }
 
 
-
-
-
-
-
 /*Footer Links*/
 span#leftlinks {
 	position:fixed;
@@ -210,7 +169,6 @@ span#rightlinks {
 	position:fixed;
 	text-align:right;
 	right:1%;
-
 }
 .footer a{
 	font-family:arial,sans-serif;
@@ -218,29 +176,11 @@ span#rightlinks {
 	font-size:13px;
 	color: #666;
 	margin: 2px 10px 0;
-	
-	
 	}
-.leftlinks
-{
-
-	
-	
-	
-	
-}
-
 
 .footer a:hover 
 	{
 	text-decoration:underline;
 	
-	
-	
 }	
 
-
-
-
-/*links*/
-a
